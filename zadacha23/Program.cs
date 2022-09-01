@@ -13,7 +13,6 @@ int [] Kub(int n)
     }
     return num;
 }
-// //метод вывода массива в консоль
 void ShowMassive(int[] massive, int n)
 {
     for (int i = 0; i < n; i++)
@@ -24,8 +23,6 @@ void ShowMassive(int[] massive, int n)
 }
 Console.Write("Введите чило N: ");
 int N = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine Kub(N);
-// int[] newMassive = Kub(N);
-// ShowMassive(newMassive, N);
+
 int [] result = Kub(N);
 ShowMassive(result, N);
